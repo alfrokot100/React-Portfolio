@@ -1,0 +1,77 @@
+.home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: black;
+    min-height: 100vh;
+    padding:7rem 9% 5rem;
+}
+.home .home-content h1
+{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+span{color: #b74b4b;}
+.home-content h3
+{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.home-image
+{border-radius: 50%;}
+.home-image img
+{
+    border-radius: 50%;
+    width: 50vw;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.4);
+
+}
+.typing-text
+{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+.typing-text span
+{
+    position: relative;
+}
+.typing-text span::before
+{
+    content: " .NET Utvecklare";
+    color: #b74b4b;
+}
+
+@media(max-width: 1000px)
+{
+    .home
+    {
+        gap: 4rem;
+    }
+}
+@media(max-width: 995px)
+{
+    .home
+    {
+        flex-direction: column;
+        margin: 4rem 5rem;
+    }
+    .home .home-content h3
+    {
+        font-size: 2.5rem;
+    }
+    .home .home-content h1
+    {
+        font-size: 5rem;
+    }
+    .home-image img
+    {
+        width: 70vh;
+        margin-top: 4rem;
+    }
+}

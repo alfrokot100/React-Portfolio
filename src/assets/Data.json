@@ -1,0 +1,22 @@
+{
+    "user": "Alfred Osewe",
+    "Utbildning": [
+        {
+            "name": "Spånga Gymnasium"
+        }
+    ],
+    "Arbetsplatser": [
+        {
+            "roll": "Lagermedarbetare",
+            "Desc": "Arbetade på Mathems lager på deltid med olika arbetsuppgifter som exempelvis plock, frontning, regga varor etc. Hade även rollen som chaufförvid behov"
+        },
+        {
+            "roll": "Handledare",
+            "Desc": "Ansvarade för att fördela arbetsuppgifter, registrera närvaro och motivera feriearbetande ungdomarför att uppnå en produktiv och engagerandearbetsmiljö."
+        },
+        {
+            "roll": "Butikssäljare på Cirkle K",
+            "Desc": "Mina arbetsuppgifter var främst att ta emot leveranser, fylla på varor, sköta biluthyrningen etc."
+        }
+    ]
+}
